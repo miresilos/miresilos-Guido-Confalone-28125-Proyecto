@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body bgcolor="DarkGray">
+  <header class="header">
+    <h1 class= "header__titulo titulo">G.D.C Contactame</h1>
+    <img src="Multimedia/Logo.JPG" width="392">
+    <nav class="header__menu menu"> 
+    <ul class="header__menu--Lista nav justify-content-end">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobreMi.html">Sobre Mi</a></li>
+        <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+        <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="container p-3 my-3 bg-dark text-white">
+    <form action="/action_page.php" class="was-validated">
+        <div class="form-group">
+          <label for="uname">Nombre Completo</label>
+          <input type="text" class="form-control" id="Nombre" placeholder="Ingresa Tu Nombre" name="Nombre" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Porfavor Completa esta Seccion.</div>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Gmail</label>
+          <input type="email" class="form-control" id="Email" placeholder="Ingresa tu Email " name="Email" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Porfavor Completa esta Seccion.</div>
+          <div><textarea 
+            name="textarea" id="" cols="30" rows="10">
+        </textarea></div>
+        <select name="Genero">
+            <option value="F">Femenino</option>
+            <option value="M">Masculino</option>
+            <option value="B">No Binarix</option>
+            <option value="N/E">No especificar</option>
+            </select>
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember" required> Acepto Terminos y condiciones
+            <div class="valid-feedback">Valido.</div>
+            <div class="invalid-feedback">Acepta los terminos para continuar.</div>
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+<footer class="container col-xl-12">
+      
+  <h3>FOOTER</h3>
+  <h3><a href="contacto.html">Contacto</a></h3>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>
