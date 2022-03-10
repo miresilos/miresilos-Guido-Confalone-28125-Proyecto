@@ -1,254 +1,269 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200&display=swap');
-
-*{
-    margin:0;
-    padding:0;  
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-$margin-size: 10px 25% 10px 25%;
-$font-size: 50px;
+
 @keyframes aparecer {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-body{
-    background-color: rgb(159, 130, 238);
+html {
+  scroll-behavior: smooth;
 }
-header {
-    background-image: url(https://media-exp1.licdn.com/dms/image/C4E16AQHWCezY1XXL2w/profile-displaybackgroundimage-shrink_350_1400/0/1638917408588?e=1646265600&v=beta&t=cZq0-Cdj1PZk7uJd3WCjd08R_6cdlKHfVWJWKS6irsI);
-    background-repeat: repeat-x;
-    background-size: 119.9rem;
-    font-family: "Manrope", sans-serif;
-    text-align: left;
-    .titulo {
-        background-color: aqua;
-        border-style: groove;
-        font-family: "Bebas Neue", cursive;
-        text-align: left;
-        font-size: px;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        animation-duration: 1.5s;
-        animation-name: aparecer;
-        animation-iteration-count: infinite;
-    }
-    
-    nav {
-        font-family: "Bebas Neue", sans-serif;
-        background-color: burlywood;
-        border: 5px solid;
-        border-color: cadetblue;
-        border-style: double;
-        font-weight: bold;
-        font-size: $font-size - 30;
-        text-align: left;
-    }
-    ul {
-        list-style-type: upper-latin;
-        list-style: square inside;
-        li {
-            text-align: center;
-        }
-    }
-}
-.Aranderay1-icon,.Aranderay2-icon,.Aranderay3-icon,.Aranderay4-icon,.Aranderay5-icon{
-    height: 500px;
-    width: 100%;
-    border: solid 5px burlywood;
-}
-@each $tumama in Aranderay1 , Aranderay2 , Aranderay3 , Aranderay4 , Aranderay5{
-    .#{$tumama}-icon{
-        background-image: url("../Multimedia/#{$tumama}.jpg");
-        background-size:cover;
-        background-position:center;
-    }
-}
-section{
-    h2{
-        color:aquamarine;
-        font-family: 'Bebas Neue', cursive;
-        text-align: auto;
-        font-size: $font-size + 10;
-        border:solid 5px;
-        border-color: burlywood;
-        margin: $margin-size;
-        display: flex;
-        justify-content: center;
-    }
-    ul {
-        list-style-type: upper-latin;
-        list-style: square inside;
-        li {
-            text-align: center;
-        }
-    }
-    h3{
-        color:cadetblue;
-        background-color: rgb(77, 76, 76);
-        font-family: 'Manrope', sans-serif;
-        text-align: left;
-        margin: $margin-size; 
-        display:flex;
-        flex-direction:row;
-        justify-content:center;
-        align-content:center;
-    }
-    .flexTabla{
-        margin: $margin-size; 
-        display: flex;
-        justify-content: center;
-    }
-    .pruebaFlex{
-        margin: $margin-size;
-        display:flex;
-        flex-direction:row;
-        justify-content:center;
-        align-content:center;
-    }
-}
-aside{
-    text-align-last: right;
-    position: fixed;
-    
-    h2{
-        color:aquamarine;
-        font-family: 'Bebas Neue', cursive;
-        text-align: auto;
-        font-size: $font-size + 10;
-        border:solid 5px;
-        border-color: burlywood;
-        
-        display: flex;
-        justify-content: center;
-    }
-    ul{
-        list-style-type: upper-latin;
-        list-style:square inside;
-        li{
-            text-align: center;
-                
-        }
-    }
-    h3{
-        color:cadetblue;
-        background-color: chocolate;
-        font-family: 'Manrope', sans-serif;
-        text-align: left;
-        margin: $margin-size; 
-        display:flex;
-        flex-direction:row;
-        justify-content:center;
-        align-content:center;
-    }
 
+body {
+  background-color: burlywood;
 }
-footer{
-    font-family: 'Manrope', sans-serif;
-    text-align: center;
-    background-image: url(https://previews.123rf.com/images/fafarumba/fafarumba1711/fafarumba171100008/88931063-patr%C3%B3n-de-videojuegos-doodle-dibujados-a-mano.jpg);
-    h2{
-        color:aquamarine;
-        font-family: 'Bebas Neue', cursive;
-        text-align: auto;
-        font-size: $font-size + 10;
-        border:solid 5px;
-        border-color: burlywood;
-        margin: $margin-size;
-        display: flex;
-        justify-content: center;
-    }
-    h3{
-        color:cadetblue;
-        background-color: chocolate;
-        font-family: 'Manrope', sans-serif;
-        text-align: left;
-        margin: $margin-size; 
-        display:flex;
-        flex-direction:row;
-        justify-content:center;
-        align-content:center;
-    }
+
+header {
+  background-image: url(https://cdn.discordapp.com/attachments/912886114006745109/951223584485937212/Background_1.jpg);
+  font-family: "Manrope", sans-serif;
+  text-align: left;
 }
-.carousel{
-    .carousel-inner img{
-        width: 100%;
-        height: 100%;
-        ul{
-            list-style-type: upper-latin;
-            list-style:square inside;
-        }
-    }
+
+.fondoA {
+  padding-top: 10rem;
+  padding-bottom: 5.5rem;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://wallpaperslinks.com/wp-content/uploads/2019/12/gaming-controller-minimal-dark-5k-zp-1080x1920.jpg);
+  background-attachment: scroll;
+  background-size: cover;
 }
-.ColorDeLista{
-    display:flex;
-    padding: 1%;
-    margin: $margin-size; 
-    position: relative;
-    align-content: space-between;
-    justify-content: center;
-    background-color: grey;
+
+header .titulo {
+  background-color: rgba(92, 77, 66, 0.8) 0%;
+  border-style: groove;
+  font-family: "Bebas Neue", cursive;
+  text-align: left;
+  font-size: px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  animation-duration: 1.5s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
 }
-video{
-    overflow: hidden;
+
+header nav {
+  font-family: "Bebas Neue", sans-serif;
+  background-color: burlywood;
+  border: 5px solid;
+  border-color: cadetblue;
+  border-style: double;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
 }
-#ColorDeClases {
-    background-color: lightgrey;
+
+header ul {
+  list-style-type: upper-latin;
+  list-style: square inside;
 }
-#FooterColor{
-    color: blueviolet;
+
+header ul li {
+  text-align: center;
 }
-#ColorDeTexto{
-    background-color:rgb(77, 76, 76);;
-    color:lightblue;
+
+.seccionProyectos {
+  margin: 100px;
+  padding: 100px;
+  align-items: center;
 }
+
+section h2 {
+  color: aquamarine;
+  font-family: "Bebas Neue", cursive;
+  text-align: auto;
+  font-size: 60px;
+  border: solid 5px;
+  border-color: burlywood;
+  margin: 10px 25% 10px 25%;
+  display: flex;
+  justify-content: center;
+}
+
+section ul {
+  list-style-type: upper-latin;
+  list-style: square inside;
+}
+
+section ul li {
+  text-align: center;
+}
+
+section h3 {
+  color: cadetblue;
+  font-family: "Manrope", sans-serif;
+  text-align: left;
+  margin: 10px 25% 10px 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+section .flexTabla {
+  margin: 10px 25% 10px 25%;
+  display: flex;
+  justify-content: center;
+}
+
+section .pruebaFlex {
+  margin: 10px 25% 10px 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+aside {
+  text-align-last: right;
+  position: fixed;
+}
+
+aside h2 {
+  color: aquamarine;
+  font-family: "Bebas Neue", cursive;
+  text-align: auto;
+  font-size: 60px;
+  border: solid 5px;
+  border-color: burlywood;
+  display: flex;
+  justify-content: center;
+}
+
+aside ul {
+  list-style-type: upper-latin;
+  list-style: square inside;
+}
+
+aside ul li {
+  text-align: center;
+}
+
+aside h3 {
+  color: cadetblue;
+  background-color: chocolate;
+  font-family: "Manrope", sans-serif;
+  text-align: left;
+  margin: 10px 25% 10px 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+footer {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  background-color: black;
+  height: 100px;
+}
+
+.carousel .carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel .carousel-inner img ul {
+  list-style-type: upper-latin;
+  list-style: square inside;
+}
+
+.ColorDeLista {
+  display: flex;
+  padding: 1%;
+  margin: 10px 25% 10px 25%;
+  position: relative;
+  align-content: space-between;
+  justify-content: center;
+  background-color: grey;
+}
+
+video {
+  overflow: hidden;
+}
+
+.subir {
+  display: none;
+  padding: 30px;
+  background-color: black;
+  background-image: url(/Multimedia/flechaArriba.png);
+  background-size: cover;
+  border-radius: 40%;
+  font-size: 20px;
+  color: beige;
+  cursor: pointer;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+#ColorDeTexto {
+  background-color: #4d4c4c;
+  color: lightblue;
+}
+
 @media only screen and (max-width: 360px) {
-    header{
-        background-size: auto;
-        text-align: center;
-    }
-    h1{
-        background-repeat: repeat-x;
-        text-align: center;
-    }
-    footer{
-        font-family: 'Manrope', sans-serif;
-        text-align: auto;
-        background-repeat: repeat-x;
-    }
-	.pruebaGrids {
-		grid-template-columns: repeat(2, 1fr);
-	}
-    h2{
-        margin: 10%;
-        font-size: 10px;
-    }
-    .ColorDeLista{
-        margin: 15%;
-    }
+  header {
+    background-size: auto;
+    text-align: center;
+  }
+
+  h1 {
+    background-repeat: repeat-x;
+    text-align: center;
+  }
+
+  footer {
+    font-family: "Manrope", sans-serif;
+    text-align: auto;
+    background-repeat: repeat-x;
+  }
+
+  .pruebaGrids {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  h2 {
+    margin: 10%;
+    font-size: 10px;
+  }
+
+  .ColorDeLista {
+    margin: 15%;
+  }
 }
 @media only screen and (max-width: 768px) {
-    header{
-        background-size: auto;
-        text-align: center;
-    }
-    h1{
-        background-repeat: repeat-x;
-        text-align: center;
-    }
-    footer{
-        
-        text-align: auto;
-        background-repeat: repeat-x;
-    }
-	.pruebaGrids {
-		grid-template-columns: repeat(2, 1fr);
-	}
-    h2{
-        font-size: 30px;
-    }
+  header {
+    background-size: auto;
+    text-align: center;
+  }
+
+  h1 {
+    background-repeat: repeat-x;
+    text-align: center;
+  }
+
+  footer {
+    text-align: auto;
+    background-repeat: repeat-x;
+  }
+
+  .pruebaGrids {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  h2 {
+    font-size: 30px;
+  }
 }
+/*# sourceMappingURL=estilos.css.map */
+
+/*# sourceMappingURL=estilossass.scss.map */

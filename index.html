@@ -1,78 +1,181 @@
 <!DOCTYPE html>
 
-<html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
-    
-    <title>Guido Confalone Portfolio</title>
-    <meta name="description" content="Mi nombre es Guido Confalone, Game designer y estudiante de licenciatura en informatica, en esta pagina podras ver mi trabajo.
-    Puedes contactarte conmigo en caso de que tengas interes!.">
-    <meta name="author" content="Guido Confalone">
-    <meta name="keywords" content="Game Designer, Level Designer, Game Developer, Argentina, Gamificacion"/>
-
-</head>
-
-<body class="row">
-    <header class="header col-xl-12">
-        <h1 class= "header__titulo titulo">G.D.C a Game Designer Portfolio</h1>
-        <img src="Multimedia/Logo.JPG" width="392">
-        <nav class="header__menu menu col-xl-13"> 
-        <ul class="header__menu--Lista nav justify-content-end">
-            <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="sobreMi.html">Sobre Mi</a></li>
-            <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
-            <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
-          </ul>
-        </nav>
-    </header>
-    
-    <section class= "sobreMi col-xl-9">
-        <h2 class="container p-3 my-3 bg-dark text-white">¿Quien Soy?</h2>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos.css">
         
-        <h3 id = "ColorDeTexto"> Passionate about programming and game
-            design and used to work under pressure, I have
-            several years of experience in customer service,
-            administration and people management. I also
-            consider myself a decisive person, with good
-            spirits, great capacity and taste for teamwork.</h3>
-            <ul class = "d-flex justify-content-around ColorDeLista">
-                <li><a href="sobreMi.html">Sobre Mi</a></li>
-                <li><a href="sobreMi.html">Formacion Profesional</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="sobreMi.html">Proyectos Desarrollados</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="sobreMi.html">The Particle</a>
-                      <a class="dropdown-item" href="sobreMi.html">Onis Curse</a>
-                      <a class="dropdown-item" href="sobreMi.html">Aranderay</a>
-                   </div>
-                </li>
-            </ul>
-    </section>
+        <title>Guido Confalone Portfolio</title>
+        <meta name="description" content="Mi nombre es Guido Confalone, Game designer y estudiante de licenciatura en informatica, en esta pagina podras ver mi trabajo.
+        Puedes contactarte conmigo en caso de que tengas interes!.">
+        <meta name="author" content="Guido Confalone">
+        <meta name="keywords" content="Game Designer, Level Designer, Game Developer, Argentina, Gamificacion"/>
+    </head>
+
+    <body>
+        <span class="subir"></span>
+        <div>
+            <header class="header">
+                <h1 class= "header__titulo titulo">G.D.C a Game Designer Portfolio</h1>
+                <img src="Multimedia/Logo.JPG" width="392px">
+                <nav class="header__menu menu col-xl-12"> 
+                <ul class="header__menu--Lista nav justify-content-end">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link transicion" href="#quienSoy">¿Quien soy?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectosDesarrollados">Proyectos</a></li>
+                </ul>
+                </nav>
+            </header>
+
+            <div class="col-lg-12 fondoA">
+                <div class="container px-4 px-lg-5 h-500">
+                    <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                        <div class="col-lg-8 align-self-end">
+                            <h1 class="text-white font-weight-bold">Passionate about programming and game
+                                design and used to work under pressure, I have
+                                several years of experience in customer service,
+                                administration and people management. I also
+                                consider myself a decisive person, with good
+                                spirits, great capacity and taste for teamwork.
+                            </h1>
+                        </div>
+                        <div class="col-lg-8 align-self-baseline">
+                            <p class="text-white-75 mb-5">Guido Daniel Confalone Fernandez.</p>
+                        </div>
+                    </div>
+                </div> 
+                <aside class="container p-1 my-4 col-xl-4">
+                    <img src="Multimedia/foto.png" width="270" class="img-fluid float-left rounded-circle">
+                    <a href="https://miresilos.itch.io/"><img src="https://img.icons8.com/ios-glyphs/110/000000/itch-io.png"/></a>
+                    <a href="https://www.linkedin.com/in/confaloneguido/"><img src="https://img.icons8.com/glyph-neue/120/000000/linkedin.png"/></a>
+                    <a href="https://www.instagram.com/guido_d_c/"><img src="https://img.icons8.com/glyph-neue/110/000000/instagram-new.png"/></a>
+                    <h3 class="container bg-white text-black">Buenos Aires, Argentina.</h3>
+                    <ul class = "d-flex justify-content-around ColorDeLista">
+                        <li><a href="galeria.html#video">Videos</a></li>
+                    </ul>
+                </aside>
+            </div>
+
+            <section>
+                <section id="quienSoy" class="seccionProyectos">
+                    <h2 >¿Quien soy?</h2>
+                    <h3 class= "text-white font-weight-bold"> Mi nombre es Guido Daniel Confalone. Un Game Designer graduado de ImageCampus y estudiante de Licenciatura en informatica en la universidad nacional de Quilmes.
+                    Tambien cuento con una beca para Grow with Google, Como diseñador UI/UX y me encuentro realizando la carrera de FullStack Dev en Coder House</h3>
+                    <hr class="divider"/>
+                    <section>
+                        <div class="container px-4 px-lg-5 ">
+                            <h2 class="text-center mt-0">Estudios y Servicios</h2>
+                        
+                            <div class="row gx-4 gx-lg-5">
+                                <div class="col-lg-3 col-md-6 text-center">
+                                    <div class="mt-5">
+                                        <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                                        <h2 class="h4 mb-2">Game Desing</h2>
+                                        <p class="text-muted mb-0">Graduado de Image Campus, realizandolo como profesion principal</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 text-center">
+                                    <div class="mt-5">
+                                        <h2 class="h4 mb-2">Level Desing</h2>
+                                        <p class="text-muted mb-0">Estudios universitarios y Realizado para distintos proyectos.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 text-center">
+                                    <div class="mt-5">
+                                        <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                                        <h2 class="h4 mb-2">Diseño UI/UX</h2>
+                                        <p class="text-muted mb-0">Finalizado por medio de una beca de Gorw With Google</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 text-center">
+                                    <div class="mt-5">
+                                        <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                                        <h2 class="h4 mb-2">Programacion Full Stack </h2>
+                                        <p class="text-muted mb-0">Nivel Traine, en constante estudio</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <hr class="divider"/>
+                <h2 id="proyectosDesarrollados">Proyectos Desarrollados</h2>
+
+                <section class="pruebaFlex">
+                    <div class ="container p-3 my-3 bg-dark text-white row">
+                        <img class= "col-xl-7"src="./Multimedia/TheParticle.jpg" width="600">
+                        <p class="col-xl-5">
+                            The Particle es un experimento sobre ciencias que, a través de una jugabilidad, el usuario desarrollará técnicas evolutivas y de supervivencia en la Galaxia C2409 previo al BIG BANG. Todos se sumergirán en una extensa aventura colmada de especies y seres que, dependiendo de su bioma y ecosistema, intentarán desplazarse y avanzar a la siguiente fase evolutiva. Todos se situarán en el inicio del cosmos y en un cuerpo aleatorio de esta Galaxia, debiendo elegir UN átomo que determinarán el futuro del ser y así obtendrá una habilidad única.
+                        </p>
+                    </div>
+                </section>
+                <section class="pruebaFlex">
+                    <div class ="container p-3 my-3 bg-dark text-white row">
+                        <img class= "col-xl-7"src="./Multimedia/OnisCurse.jpg" width="600">
+                        <p class="col-xl-5">
+                            Kazuya, se ve atormentado por el Oni que lo poseyó, quien se hace llamar Yoshiro. Kazuya posee cierto control sobre Yoshiro ya que conocía muchas historias sobre los Oni y cómo controlarlos a voluntad, sin embargo, mantener a Yoshiro en su cuerpo mucho tiempo hará que Kazuya pierda la voluntad que posee. Para poder deshacerse de Yoshiro, el joven debe llegar al Santuario de la Fuente Sagrada con la esperanza de que al beber de la fuente, Yoshiro se vería obligado a retirarse de su cuerpo. Sin embargo, para entorpecer el viaje de Kazuya, Yoshiro decide condenar al joven con la Maldicion del mundo plano haciendo que este solo pueda ver el mundo de forma distorsionada, en blanco y negro. El viaje de Kazuya será duro y deberá controlar a Yoshiro para poder llegar a su destino y salvar su vida. https://alpha-wolf-studios.itch.io/ggj-2022
+                        </p>
+                    </div>
+                </section>
+                <section class="pruebaFlex">
+                    <div class ="container p-3 my-3 bg-dark text-white row">
+                        <img class= "col-xl-7"src="./Multimedia/Aranderay1.jpg" width="600">
+                        <p class="col-xl-5">
+                            Aranderay es un video juego de estrategia por turnos. Donde unas criaturas atacan una base antartica que realiza investigaciones a un presunto meteorito que callo a la tierra. Acompaña a los operativos de la base ganas los combates y sumergete en esta gran historia que iras descubriendo al superar cada desafio.https://at12318.itch.io/aranderay 
+                        </p>
+                    </div>
+                </section>
+                <section class="pruebaFlex">
+                    <div class ="container p-3 my-3 bg-dark text-white row">
+                        <img class= "col-xl-7"src="./Multimedia/Zomboski.jpg" width="600">
+                        <p class="col-xl-5">
+                            Zomboski es una aventura gráfica, point and click dramática que permite al jugador explorar los escenarios encontrando objetos y solucionando puzzles para desarrollar la historia. En la que encarnamos al Dr. Zomboski un científico infectado por el virus zombi que llevo a la raza humana al borde de la extinción. La historia inicia cuando Zomboski buscar una cura para no solo mantenerse cuerdo, sino que poder curar a su hija que lastimosamente se encuentra en un estado más deplorable que el del Dr.Para poder realizarlo Zomboski deberá superar obstáculos que lo obligan a salir al exterior para obtener materiales que no solo le permitirán desarrollar la cura sino que también mantener a raya a los zombis que el mantiene prisioneros para experimentar, dificultades ocurren durante esta laboriosa tarea por lo que Zomboski deberá dar todo de si para resolverlo. (Proyecto realizado para LATAM GAME JAM)
+                        </p>
+                    </div>
+                </section>
+                    
+                <section class="flexTabla">
+                    <table class="table table-dark table-hover">
+                        <tr style="background-color: blueviolet;">
+                            <td>Nombre</td>
+                            <td>Estudio</td>
+                            <td>Genero</td>
+                            <td>Fecha</td>
+                            <td>Link</td>
+                        </tr>
+                        <tr style="background-color: grey;">
+                            <td>The Particle</td>
+                            <td>Particle Project</td>
+                            <td>Adventure nft</td>
+                            <td>2023</td>
+                            <td>https://theparticlegame.com/</td>
+                            </tr>
+                        <tr style="background-color: goldenrod;">
+                            <td>Onis Curse</td>
+                            <td>Alpha Wolf Studio</td>
+                            <td>Plataformero</td>
+                            <td>GGJ 2022</td>
+                            <td>https://alpha-wolf-studios.itch.io/ggj-2022</td>
+                        </tr>
+                    </table>   
+                </section> 
+            </section>
+        </div> 
      
-   
-    <aside class="container p-3 my-3 bg-dark col-xl-3">
-        <img src="Multimedia/foto.png" width="270" class="img-fluid float-left rounded-circle">
-        <a href="https://miresilos.itch.io/"><img src="https://img.icons8.com/ios-glyphs/60/000000/itch-io.png"/></a>
-        <a href="https://www.instagram.com/guido_d_c/"><img src="https://img.icons8.com/glyph-neue/64/000000/instagram-new.png"/></a>
-        <h3 class="container bg-dark text-white">Buenos Aires, Argentina.</h3>
-        <ul class = "d-flex justify-content-around ColorDeLista">
-            <li><a href="proyectos.html">Video A</a></li>
-            <li><a href="proyectos.html">Video B</a></li>
-            <li><a href="proyectos.html">Video C</a></li>
-        </ul>
-    </aside>
-    
-    <footer class="container col-xl-12">
-        <h3>Te interesa mi trabajo?</h3>
-        <h3><a href="contacto.html">Contactame</a></h3>
-    </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-    
-</body>
+        <footer>
+            <p class="text-white font-weight-bold">Te interesa mi trabajo?</p>
+            <p class="text-white font-weight-bold"><a href="contacto.html">Contactame</a></p>
+        </footer> 
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+    </body>
 </html>
